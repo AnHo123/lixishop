@@ -1,0 +1,75 @@
+.login-body{
+    background-color: rgb(250, 252, 253);
+}
+.login-wrap{
+    max-width: 780px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 0px 4px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.login-link-text {
+    text-decoration: underline;
+    text-align: center;
+}
+.login-social{
+    background-image: url(../img/desktop-signin.png);
+}
+.btn-login-social{
+    background-color: white;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    line-height: 30px;
+}
+.btn-login-social:hover {
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15),0 6px 6px rgba(0,0,0,0.2);
+}
+.login-text{
+    font-size: 14px;
+    font-weight: 600;
+}
+.form-login {
+    background-color: #fff;
+}
+.form-login input{
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #202020;
+    border-radius: 8px;
+    border: 1px solid #e5ebee;
+}
+.form-login input:focus{
+    border-color: var( --pink-primary-color);
+    box-shadow: none;
+}
+
+@media (max-width: 991.98px) {
+    .login-body {
+        width: 100vw;
+        height: 100vh;
+        background-image: url(../img/mobile-auth.png);
+        background-size: cover;
+        background-position: center center;
+    }
+    .login-wrap{
+        max-width: 330px;
+        height: 100%;
+        align-content: center;
+    }
+    .login-body .container {
+        height: 100%;
+    }
+    .login-social, .form-login {
+        background: none;
+    }
+    .login-text, .login-link-text{
+        color: #fff;
+    }
+    .login-link-text {
+        text-align: end;
+    }
+  }
