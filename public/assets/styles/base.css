@@ -1,0 +1,149 @@
+:root {
+  --pink-primary-color: rgb(254, 44, 109);
+}
+.text-pink-primary {
+  color: rgb(254, 44, 109);
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.border-radius {
+  border-radius: 8px;
+}
+/* link */
+a {
+  color: #333;
+  text-decoration: none;
+}
+a:hover {
+  color: #666;
+}
+/* font-size */
+.fs-7 {
+  font-size: 14px;
+}
+.fs-8 {
+  font-size: 12px;
+}
+.fw-500 {
+  font-weight: 500;
+}
+/* button */
+.btn {
+  border-radius: 8px;
+}
+.btn:focus {
+  box-shadow: unset;
+}
+.btn-pink {
+  background-color: var(--pink-primary-color);
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  /* line-height: 30px; */
+}
+.btn-pink:hover {
+  color: white;
+  opacity: 0.6;
+}
+.btn-add-like {
+  border: 1px solid rgb(90, 88, 88);
+  font-weight: 600;
+  color: rgb(90, 88, 88);
+}
+.btn-add-like.active {
+  border: 1px solid var(--pink-primary-color);
+  font-weight: 600;
+  color: var(--pink-primary-color);
+}
+.btn-add-like:hover {
+  opacity: 0.6;
+}
+
+/* header */
+.header {
+  box-shadow: rgb(0 0 0 / 2%) 0px 0px 0px 1px, rgb(0 0 0 / 3%) 1px 1px 1px 1px;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 1000;
+}
+/* top nav */
+.navbar-top {
+  background-color: rgb(32, 32, 32);
+}
+.navbar-top-right a {
+  color: #fff;
+}
+.navbar-top-right a:hover {
+  color: #e0dcdc;
+}
+/* primary nav */
+.form-search {
+  height: 50px;
+  border: none;
+  border-right: 1px solid #ced4da;
+  border-radius: 10px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.form-search:focus {
+  border-color: #ced4da;
+  box-shadow: none;
+}
+.form-search-wrap {
+  border: 1px solid #ced4da;
+  border-radius: 10px;
+}
+.btn-search {
+  border: none;
+  border-radius: 0px;
+  border-radius: 10px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+/* secondary nav */
+.link-item.nav-link {
+  color: #333;
+  font-weight: 600;
+}
+
+.link-item.nav-link.active, .active {
+  color: var(--pink-primary-color);
+}
+
+.link-item.nav-link:hover {
+  color: var(--pink-primary-color);
+}
+/* cart-icon */
+.cart-noti {
+  font-size: 13px;
+  line-height: 24px;
+  top: 6px;
+  background-color: var(--pink-primary-color);
+  font-style: normal;
+}
+
+/* footer */
+.footer-text,
+.list-unstyled a {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.footer-title {
+  line-height: 28px;
+  color: rgba(255, 255, 255, 0.9);
+}
+.connect a {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.error-message {
+  display: block;
+  font-size: 13px;
+  color: var(--pink-primary-color);
+  padding: 4px 6px 0;
+}
