@@ -357,7 +357,7 @@ function ProductDetail() {
           </div>
           <div className="d-flex align-items-center">
             <img
-              src="/assets/img/halio.png"
+              src="assets/img/halio.png"
               alt=""
               style={{ height: "auto", width: "120px" }}
             />
@@ -503,7 +503,7 @@ function ProductDetail() {
                   ) : (
                     <div className="loading-img w-100 text-center">
                       <img
-                        src="/assets/img/Loading_icon.gif"
+                        src="assets/img/Loading_icon.gif"
                         alt="loading"
                       />
                     </div>

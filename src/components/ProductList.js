@@ -336,13 +336,13 @@ function ProductList() {
                 renderProductList()
               ) : (
                 <div className="loading-img w-100 text-center">
-                  <img src="/assets/img/Loading_icon.gif" alt="loading" />
+                  <img src="assets/img/Loading_icon.gif" alt="loading" />
                 </div>
               )}
               {renderProductList().length == 0 && isLoaded && (
                 <>
                   <div className="emty-img w-100 text-center">
-                    <img src="/assets/img/empty-page.jpg" alt="empty" />
+                    <img src="assets/img/empty-page.jpg" alt="empty" />
                     <div>Rất tiếc, không tìm thấy sản phẩm.</div>
                   </div>
                 </>

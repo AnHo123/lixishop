@@ -207,7 +207,7 @@ function Cart() {
                         ) : (
                           <div className="loading-img w-100 text-center">
                             <img
-                              src="/assets/img/Loading_icon.gif"
+                              src="assets/img/Loading_icon.gif"
                               alt="loading"
                             />
                           </div>

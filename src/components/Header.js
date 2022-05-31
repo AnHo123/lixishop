@@ -70,7 +70,7 @@ function Header() {
           {/* search mobile */}
           <a href="index.html" style={{ width: "8%" }} className="d-xs-block d-sm-block d-md-none">
             <img
-              src="/assets/img/fav.ico"
+              src="assets/img/fav.ico"
               className="d-sm-block d-md-none w-100"
               alt=""
             />

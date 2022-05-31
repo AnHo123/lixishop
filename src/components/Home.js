@@ -54,21 +54,21 @@ function Home() {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img
-              src="/assets/img/banner/banner1.jpg"
+              src="assets/img/banner/banner1.jpg"
               className="d-block w-100"
               alt="..."
             />
           </div>
           <div className="carousel-item">
             <img
-              src="/assets/img/banner/banner2.jpg"
+              src="assets/img/banner/banner2.jpg"
               className="d-block w-100"
               alt="..."
             />
           </div>
           <div className="carousel-item">
             <img
-              src="/assets/img/banner/banner3.jpg"
+              src="assets/img/banner/banner3.jpg"
               className="d-block w-100"
               alt="..."
             />
@@ -105,7 +105,7 @@ function Home() {
         <div className="d-flex justify-content-between">
           <a href="/shop" className=" d-block text-center">
             <img
-              src="/assets/img/navbar/nav-mobile-1.png"
+              src="assets/img/navbar/nav-mobile-1.png"
               style={{ width: "60px" }}
               alt=""
             />
@@ -113,7 +113,7 @@ function Home() {
           </a>
           <a href="/shop" className=" d-block text-center">
             <img
-              src="/assets/img/navbar/nav-mobile-2.png"
+              src="assets/img/navbar/nav-mobile-2.png"
               style={{ width: "60px" }}
               alt=""
             />
@@ -121,7 +121,7 @@ function Home() {
           </a>
           <a href="/shop" className=" d-block text-center">
             <img
-              src="/assets/img/navbar/nav-mobile-3.png"
+              src="assets/img/navbar/nav-mobile-3.png"
               style={{ width: "60px" }}
               alt=""
             />
@@ -129,7 +129,7 @@ function Home() {
           </a>
           <a href="/shop" className=" d-block text-center">
             <img
-              src="/assets/img/navbar/nav-mobile-4.png"
+              src="assets/img/navbar/nav-mobile-4.png"
               style={{ width: "60px" }}
               alt=""
             />
@@ -147,7 +147,7 @@ function Home() {
           <div className="row">
             <div className="col-lg-12">
               <img
-                src="/assets/img/banner/banner-product-hot.jpg"
+                src="assets/img/banner/banner-product-hot.jpg"
                 className="w-100"
                 alt=""
               />
@@ -207,7 +207,7 @@ function Home() {
                     )
                   ) : (
                     <div className="loading-img w-100 text-center">
-                      <img src="/assets/img/Loading_icon.gif" alt="loading" />
+                      <img src="assets/img/Loading_icon.gif" alt="loading" />
                     </div>
                   )}
                 </div>
@@ -245,14 +245,14 @@ function Home() {
         <div className="row">
           <div className="col-md-6 pt-1">
             <img
-              src="/assets/img/banner/banner-promo1.jpg"
+              src="assets/img/banner/banner-promo1.jpg"
               className="w-100 banner-promo"
               alt=""
             />
           </div>
           <div className="col-md-6 pt-1">
             <img
-              src="/assets/img/banner/banner-promo2.jpg"
+              src="assets/img/banner/banner-promo2.jpg"
               className="w-100 banner-promo"
               alt=""
             />
@@ -268,7 +268,7 @@ function Home() {
           <div className="row">
             <div className="col-md-12">
               <img
-                src="/assets/img/banner/banner-product-top.jpg"
+                src="assets/img/banner/banner-product-top.jpg"
                 className="w-100"
                 alt=""
               />
@@ -328,7 +328,7 @@ function Home() {
                     )
                   ) : (
                     <div className="loading-img w-100 text-center">
-                      <img src="/assets/img/Loading_icon.gif" alt="loading" />
+                      <img src="assets/img/Loading_icon.gif" alt="loading" />
                     </div>
                   )}
                 </div>
@@ -370,7 +370,7 @@ function Home() {
           <div className="col-md-3 ps-0">
             <a href="">
               <img
-                src="/assets/img/banner/banner-pro-1.jpg"
+                src="assets/img/banner/banner-pro-1.jpg"
                 className="w-100 rounded-3"
                 style={{ maxHeight: "400px" }}
                 alt=""
@@ -380,7 +380,7 @@ function Home() {
           <div className="col-md-3">
             <a href="">
               <img
-                src="/assets/img/banner/banner-pro-2.jpg"
+                src="assets/img/banner/banner-pro-2.jpg"
                 className="w-100 rounded-3"
                 style={{ maxHeight: "400px" }}
                 alt=""
@@ -390,7 +390,7 @@ function Home() {
           <div className="col-md-3">
             <a href="">
               <img
-                src="/assets/img/banner/banner-pro-3.jpg"
+                src="assets/img/banner/banner-pro-3.jpg"
                 className="w-100 rounded-3"
                 style={{ maxHeight: "400px" }}
                 alt=""
@@ -400,7 +400,7 @@ function Home() {
           <div className="col-md-3 pe-0">
             <a href="">
               <img
-                src="/assets/img/banner/banner-pro-4.jpg"
+                src="assets/img/banner/banner-pro-4.jpg"
                 className="w-100 rounded-3"
                 style={{ maxHeight: "400px" }}
                 alt=""
@@ -438,12 +438,12 @@ function Home() {
           <div className="carousel-item active mb-5">
             <div className="row">
               <img
-                src="/assets/img/banner/banner-pro-1.jpg"
+                src="assets/img/banner/banner-pro-1.jpg"
                 className="col-6"
                 alt="..."
               />
               <img
-                src="/assets/img/banner/banner-pro-2.jpg"
+                src="assets/img/banner/banner-pro-2.jpg"
                 className="col-6"
                 alt="..."
               />
@@ -452,12 +452,12 @@ function Home() {
           <div className="carousel-item mb-5">
             <div className="row">
               <img
-                src="/assets/img/banner/banner-pro-3.jpg"
+                src="assets/img/banner/banner-pro-3.jpg"
                 className="col-6"
                 alt="..."
               />
               <img
-                src="/assets/img/banner/banner-pro-4.jpg"
+                src="assets/img/banner/banner-pro-4.jpg"
                 className="col-6"
                 alt="..."
               />

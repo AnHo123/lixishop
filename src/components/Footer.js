@@ -130,14 +130,14 @@ function Footer() {
               <div className="d-flex mb-3">
                 <a href="">
                   <img
-                    src="/assets/img/ios-app.png"
+                    src="assets/img/ios-app.png"
                     alt=""
                     className="w-100"
                   />
                 </a>
                 <a href="">
                   <img
-                    src="/assets/img/android-app.png"
+                    src="assets/img/android-app.png"
                     alt=""
                     className="w-100"
                   />
